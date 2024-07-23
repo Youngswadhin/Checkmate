@@ -45,7 +45,7 @@ const GameModal: React.FC<GameModalProps> = ({
                       alt="Bot Profile"
                       className="rounded-md"
                     />
-                    <p className="text-sm font-light">StockFish</p>
+                    <p className="text-sm font-light">SWADHIN</p>
                   </div>
                   <div className="text-lg">Vs</div>
                   <div className="flex flex-col items-center gap-1">

@@ -55,7 +55,7 @@ const SideBar = () => {
               height={28}
             />
             <span className="self-center text-xl font-bold hidden lg:block">
-              Knightly
+            Chess
             </span>
           </Link>
           <ul className="space-y-2 font-medium">
@@ -68,7 +68,7 @@ const SideBar = () => {
                 <span className="ms-3 hidden lg:block">Home</span>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="https://www.chess.com/today"
                 target="_blank"
@@ -90,7 +90,7 @@ const SideBar = () => {
                 <IoSettingsOutline size={iconWidth} className="m-1 sm:m-0" />
                 <span className="ms-3 hidden lg:block">Settings</span>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </aside>

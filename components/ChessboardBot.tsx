@@ -93,9 +93,9 @@ const ChessboardBot: React.FC = () => {
     if (game.in_checkmate() || game.in_draw() || game.in_stalemate()) {
       if (game.in_checkmate()) {
         if (playAs === "black") {
-          setGameResult(game.turn() === "w" ? "User wins!" : "StockFish wins!");
+          setGameResult(game.turn() === "w" ? "User wins!" : "SWADHIN wins!");
         } else {
-          setGameResult(game.turn() === "w" ? "StockFish wins!" : "User wins!");
+          setGameResult(game.turn() === "w" ? "SWADHIN wins!" : "User wins!");
         }
       } else {
         setGameResult("It's a draw!");
